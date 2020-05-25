@@ -1,0 +1,34 @@
+ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   border-radius: 2px;
+   width: 472px;
+   background: #159cb0 url('fundo-horizontal.png') repeat-x;
+   float: left;
+}
+
+ul li {
+   float: left;
+}
+
+ul a {
+   display: block;
+   padding: 8px 32px;
+   text-decoration: none;
+   color: white;
+   background: url('divisor.png') repeat-y;
+}
+
+ul a:hover {
+   color: #085662;
+   background: #44cade;
+}
+
+#home #navegacao .home a,
+#contato #navegacao .contato a,
+#local #navegacao .local a,
+#redes #navegacao .redes a {
+   color: #085662;
+   background: #44cade;;
+}
